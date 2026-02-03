@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "randonix"          # verifica se n existe no pip
+version = "0.1.0"
+description = "Random com seed visível e reproduzível"
+authors = [{name="Redzz"}]
+readme = "README.md"
+requires-python = ">=3.8"
